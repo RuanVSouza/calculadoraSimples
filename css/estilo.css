@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    border:0;
+    box-sizing:0 ;
+}
+
+body{
+    background: gray
+}
+
+/****************Corpo da calculadora************************/
+#corpoCalculadora{
+    background:rgb(34, 30, 30);
+    width:350px;
+    height:480px;
+    margin-Left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius:15px;
+    box-shadow: 2px 2px 2px #000
+
+}
+
+/***************************resultado***********************/
+#areaResultado{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+input{
+    height:50px;
+    width:300px;
+    margin-top:15px;
+    border-radius:10px;
+    background: white;
+    text-align:right;
+    box-shadow: 3px 3px 1px #000;
+    font-size: 40px;
+}
+
+/*******************Parte das caracteres**************/
+#ajustandoItens{
+    margin-top: 5px;
+}
+
+button:hover{
+    background:#c0c0c0
+}
+.caracteres{
+    color: white;
+    background:rgb(71, 68, 68);
+    width: 60px;
+    height: 50px;
+    justify-content:center;
+    cursor:pointer;
+    font-size:20px;
+    border-radius:10px;
+    box-shadow: 3px 3px 1px #000;
+    margin-bottom:30px;
+    margin-left:20px;
+}
+
+.limpar{
+    width:145px
+}
+
+.igual{
+    position:absolute;
+    height:130px
+}
